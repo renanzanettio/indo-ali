@@ -1,0 +1,47 @@
+*{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.initial-display{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.initial-display.hidden{
+    opacity: 0;
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    color: #000;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #89cff0;
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+
+.grongos-indo-ali{
+    position: absolute;
+    height: 100%;
+    background-image: url("inali.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
